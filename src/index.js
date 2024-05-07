@@ -13,6 +13,8 @@ import Restaurant from './pages/Restaurant';
 import Search from './pages/Search';
 import store from './store/store';
 import './styles.css';
+import LoginPage from './components/Login';
+import SignupPage from './components/Register';
 
 const Contact = lazy(() => import('./pages/Contact'));
 
@@ -47,7 +49,11 @@ const router = createBrowserRouter([
       },
       {
         path: 'login',
-        element: <Login />,
+        element: <LoginPage />,
+      },
+      {
+        path: 'register',
+        element: <SignupPage />,
       },
       {
         path: 'restaurants/:id',
