@@ -18,6 +18,12 @@ app.get("/", (req, res) => {
     })
 })
 
+app.get("/test", (req, res) => {
+    res.send({
+        message: "welcome to test"
+    })
+})
+
 const PORT = 8080;
 
 app.listen(PORT, () => {
