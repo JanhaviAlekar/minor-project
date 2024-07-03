@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     infra_id: 765e0191-1e57-40f9-8c66-eddda7613225
-    revision_id: 37691fbd-3caa-44d7-bb0e-b520ff1f6fac
+    revision_id: 2b7e161f-bbb6-42f0-a916-685fdb600586
     workflow_id: 5c152ed6-128c-48ea-b8b9-59eeb6002314
     workflows.argoproj.io/controller-instanceid: 765e0191-1e57-40f9-8c66-eddda7613225
   name: litmus
